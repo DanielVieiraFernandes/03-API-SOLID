@@ -31,3 +31,4 @@ GymPass style app
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 # 03-API-SOLID
+# 03-API-SOLID
