@@ -1,8 +1,4 @@
 import { expect, test, describe, it, beforeEach } from "vitest";
-import { RegisterUseCase } from "./register";
-import { compare } from "bcryptjs";
-import { InMemoryUsersRepository } from "@/repositories/in-memory/in-memory-users-repository";
-import { UserAlreadyExistsError } from "./errors/user-already-exists";
 import { InMemoryGymsRepository } from "@/repositories/in-memory/in-memory-gyms-repository";
 import { CreateGymUseCase } from "./create-gym";
 
@@ -14,7 +10,6 @@ let sut: CreateGymUseCase;
 
 
 describe('Create Gym use case', () => {
-
 
     beforeEach(() => {
         gymRepository = new InMemoryGymsRepository();
