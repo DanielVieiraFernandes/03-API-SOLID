@@ -28,6 +28,7 @@ export async function create(req: FastifyRequest, res: FastifyReply) {
 
     } catch (error) {
 
+
         throw error; 
     }
 

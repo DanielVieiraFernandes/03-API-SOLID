@@ -42,6 +42,7 @@
     "vitest": "3.0.5"
   },
   "dependencies": {
+    "@fastify/cookie": "11.0.2",
     "@fastify/jwt": "9.0.4",
     "@prisma/client": "6.3.1",
     "bcryptjs": "2.4.3",
