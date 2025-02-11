@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "GymPass style app",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsup src --out-dir build",
